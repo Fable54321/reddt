@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin-top: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  max-height: 10vh;
 }
+
+.logo {
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+  display: flex;
+  width: 100%;
+  
+}
+
+.logo p {
+  font-family: "reddit sans";
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-right: 0.7%;
+}
+
+.logo img {
+  
+  height: 50%;
+}
+
+.searchBar {
+  display:flex;
+  height: 100%;
+  width: 100%;
+  margin-right: 7vw;
+ 
+  margin-top: 1vh;
+  
+}
+
+.searchBar p {
+  width: 100%;
+  text-align: right;
+  
+}
+
+.searchBar input {
+  min-width: 20vw;
+  
+}
+
+
+.logoLink {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  
+}
+
+.user {
+  height:50%;
+  top: 1vh;
+  border-radius: 100%;
+  position: relative;
+  right: 1vw;
+}
+
+/* threadList */
+
+.threadClick {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.threadContainer {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.threadBox {
+  border: solid 2px black;
+  width: 35vw;
+}
+
+
+.threadClick h1 {
+  max-width: 35vw;
+}
+
+.threadClick p {
+  max-width: 35vw;
+}
+
